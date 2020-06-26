@@ -1,0 +1,196 @@
+.main {
+    position: relative;
+    padding: 37px 0 47px 0;
+    background: url(../image/first_block/first_bg.png) center (center/cover) no-repeat;
+    &__logo {
+        img {
+            width: 100%;
+            max-width: 397px;
+        }
+    }
+    &__sublogo {
+        font-size: 20px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: rgba(0, 0, 0, 0.95);
+    }
+    &__slog {
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 72px;
+        text-transform: uppercase;
+        color: #132A82;
+
+
+    }
+    &__botle {
+        display: flex;
+        &_img {
+            width: 100%;
+            max-width: 270px;
+            max-height: 390px;
+        }
+    }
+    &__info {
+        margin-left: 60px;
+    }
+    &__item {
+        display: flex;
+        max-width: 384px;
+        background-color: #fff;
+
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+
+        margin-top: 16px;
+        &_okay {
+            margin-left: 25px;
+            width: 48px;
+        }
+        &_text {
+            font-size: 20px;
+            line-height: 22px;
+            color: rgba(0, 0, 0, 0.95);
+
+            margin-left: 6px;
+        }
+        span {
+            color: #E85252;
+        }
+    }
+    &__wrap {
+        width: 100%;
+        display: flex;
+    }
+
+
+    &__action {
+        padding: 30px 0 48px 0;
+        width: 100%;
+        max-width: 368px;
+        height: 648px;
+        background-color: #fff;
+
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+    &_time {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &_wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 70px;
+        border: 1px dashed #E85252;
+        border-radius: 36px;
+    }
+    &_num {
+        font-size: 26px;
+        line-height: 25px;
+        font-weight: bold;
+
+        text-align: center;
+        text-transform: lowercase;
+
+        color: #E85252;
+
+    }
+    &_dots {
+        margin: 0 9px 0 9px;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 25px;
+
+        text-align: center;
+        text-transform: lowercase;
+
+        color: #000000;
+    }
+    &_names {
+        margin: 0 auto;
+        width: 250px;
+    }
+    &_wrapNames {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p {
+            font-size: 18px;
+            line-height: 17px;
+            text-align: center;
+            text-transform: lowercase;
+
+            color: #000000;
+        }
+        p:nth-child(2) {
+            margin-left: 15px;
+        }
+    }
+    &_price {
+        margin: 0 auto;
+        text-align: center;
+
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 46px;
+        text-align: center;
+
+        color: #E85252;
+    }
+    &_sell {
+        font-size: 30px;
+        line-height: 29px;
+        text-align: center;
+        text-decoration-line: line-through;
+        margin-top: 10px;
+
+        color: rgba(0, 0, 0, 0.95);
+    }
+    &_form {
+        padding: 0 32px 0 40px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        select {
+            padding: 0 27px 0 16px;
+            height: 48px;
+            background: #FFFFFF;
+            border: 1px solid #DEDEDE;
+            box-sizing: border-box;
+
+            font-size: 18px;
+            line-height: 17px;
+            display: flex;
+            align-items: center;
+
+
+            color: rgba(0, 0, 0, 0.95);
+        }
+        
+        input {
+            padding: 0 0 0 16px;
+            margin-top: 8px;
+            height: 48px;
+            background: #FFFFFF;
+            border: 1px solid #DEDEDE;
+            box-sizing: border-box;
+
+            font-size: 18px;
+            line-height: 17px;
+            display: flex;
+            align-items: center;
+
+
+            color: rgba(0, 0, 0, 0.95);
+        }
+    }
+
+
+    }
+}
+option {
+    height: 48px;
+}

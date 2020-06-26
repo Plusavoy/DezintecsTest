@@ -1,0 +1,18 @@
+.button {
+    height: 56px;
+    margin-top: 8px;
+    background: #E85252;
+    border-radius: 30px;
+    border: none;
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+    cursor: pointer;
+    &:hover {
+        box-shadow:3px 3px 20px #E85252;
+    }
+}

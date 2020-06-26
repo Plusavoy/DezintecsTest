@@ -1,0 +1,15 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Gotham Pro , sans-serif;
+}
+.container {
+    display: block;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/main';
+@import 'blocks/title';
+@import 'blocks/button.scss';
